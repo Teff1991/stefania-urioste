@@ -117,6 +117,29 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 span{
     font-size: 1.5rem;
 }
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    width: 200px;
+}
+.cardTitulo{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    margin: 10px;
+    font-weight: 700;
+}
+.cardImg{
+    width: 100%;
+}
 @media (max-width:576px){
     .contenedor{
         display: grid;
